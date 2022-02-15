@@ -3,10 +3,10 @@ import styled from "styled-components";
 const Carrinho = styled.div`
   background-color: mediumblue;
   display: flex;
-  width: 100px; 
+  width: 160px; 
   border: 1px solid black;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
 `;
 
 function SideBarCarrinho() {

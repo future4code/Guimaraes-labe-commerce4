@@ -17,6 +17,7 @@ export default function App() {
       <header>
         <h4></h4>
       </header>
+
       {/* <SideBarFiltro /> */}
       <ContainerPrincipal />
      {/*  <SideBarCarrinho />  */}
