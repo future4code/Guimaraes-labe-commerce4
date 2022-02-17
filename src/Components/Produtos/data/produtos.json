@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "title": "Lego Star Wars",
+        "description": "Lego Star Wars is a brand of Lego construction toys that were created by the LEGO Group in the United States and Canada. The brand was introduced in the United States in 1986 and in Canada in 1988. The brand was discontinued in 2010. The brand was rebranded as LEGO Star Wars in 2012.",
+        "price": 1000,
+        "apiKeyId": "1"
+    },
+    {
+        "id": "2",
+        "title": "Lego Batman",
+        "description": "Lego Batman is a brand of Lego construction toys that were created by the LEGO Group in the United States and Canada. The brand was introduced in the United States in 1986 and in Canada in 1988. The brand was discontinued in 2010. The brand was rebranded as LEGO Star Wars in 2012.",
+        "price": 2000,
+        "apiKeyId": "2"
+    },
+    {
+        "id": "3",
+        "title": "Lego Harry Potter",
+        "description": "Lego Harry Potter is a brand of Lego construction toys that were created by the LEGO Group in the United States and Canada. The brand was introduced in the United States in 1986 and in Canada in 1988. The brand was discontinued in 2010. The brand was rebranded as LEGO Star Wars in 2012.",
+        "price": 3000,
+        "apiKeyId": "3"
+    },
+    {
+        "id": "4",
+        "title": "Lego Marvel",
+        "description": "Lego Marvel is a brand of Lego construction toys that were created by the LEGO Group in the United States and Canada. The brand was introduced in the United States in 1986 and in Canada in 1988. The brand was discontinued in 2010. The brand was rebranded as LEGO Star Wars in 2012.",
+        "price": 4000,
+        "apiKeyId": "4"
+    },
+    {
+        "id": "5",
+        "title": "Lego Star Wars",
+        "description": "Lego Star Wars is a brand of Lego construction toys that were created by the LEGO Group in the United States and Canada. The brand was introduced in the United States in 1986 and in Canada in 1988. The brand was discontinued in 2010. The brand was rebranded as LEGO Star Wars in 2012.",
+        "price": 5000,
+        "apiKeyId": "5"
+    },
+    {
+        "id": "6",
+        "title": "Lego Batman",
+        "description": "Lego Batman is a brand of Lego construction toys that were created by the LEGO Group in the United States and Canada. The brand was introduced in the United States in 1986 and in Canada in 1988. The brand was discontinued in 2010. The brand was rebranded as LEGO Star Wars in 2012.",
+        "price": 6000,
+        "apiKeyId": "6"
+    }    
+]

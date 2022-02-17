@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import SwiftSlider from 'react-swift-slider'
+import produtos from "./data/produtos.json";
 
 const data =  [
   {'id':'1','src':'https://m.media-amazon.com/images/I/81kVxznTd0L._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
@@ -46,22 +47,30 @@ const ContVenda = styled.div`
     padding-top: 10px;
     padding-bottom: 10px;
 `;
-function Produto2() {
-    return (
+class Produto2 extends React.Component {
+
+    state = {
+        produto: produtos[1],
+    };
+
+    render() {
+
+        return (
     <Container>
         <ContSlider>
         <SwiftSlider data={data} height={200} />
         </ContSlider>
             <ContVenda>
-                <h1>Lego Star Wars</h1>
+                <h1>{this.state.produto.title}</h1>
                 <Preco>
                     <p>R$</p>
-                    <p>1000</p>
+                    <p>{this.state.produto.price}</p>
                     <p>,00</p>
                 </Preco>
                 <button>Adicionar ao Carrinho</button>
             </ContVenda>
     </Container>
-    )
+        );
+    }
 }
 export default Produto2;
