@@ -1,8 +1,8 @@
 import React from "react";
 import ContainerPrincipal from "./Components/ContainerPrincipal";
-/* import ContainerCards from "./Components/ContainerCards";
+import ContainerCards from "./Components/ContainerCards";
 import SideBarCarrinho from "./Components/SideBarCarrinho";
-import SideBarFiltro from "./Components/SideBarFiltro"; */
+import SideBarFiltro from "./Components/SideBarFiltro";
 import styled from "styled-components";
 
 const MainApp = styled.div`
@@ -10,7 +10,12 @@ background-color: none;
 display: grid;
 grid: 2 3;
 `;
-
+const OrdenarProdutos = styled.select`
+background-color: #001020;
+color: #ddeeff;
+padding: 0.5vw;
+font-size:1vw;
+`
 export default function App() {
   return (
     <MainApp>
@@ -18,9 +23,9 @@ export default function App() {
         <h4></h4>
       </header>
 
-      {/* <SideBarFiltro /> */}
+      <SideBarFiltro />
       <ContainerPrincipal />
-     {/*  <SideBarCarrinho />  */}
+      <SideBarCarrinho /> 
     </MainApp>
   );
 }

@@ -1,17 +1,25 @@
 import React from "react";
 import styled from "styled-components";
+
 const Carrinho = styled.div`
-  background-color: mediumblue;
+  background-color: #001020;
   display: flex;
-  width: 160px; 
+  flex-flow: column wrap;
+  width: 160px;
   border: 1px solid black;
   flex-direction: column;
   height: 100%;
+  grid-area: sidebar;
+  color: #ddeeff;
 `;
 
 function SideBarCarrinho() {
-  return <Carrinho>
+  return (
+  <Carrinho>
+    <h4>Carrinho:</h4>
+    <p>1x</p>
 
-  </Carrinho>;
+  </Carrinho>
+  )
 }
 export default SideBarCarrinho;
