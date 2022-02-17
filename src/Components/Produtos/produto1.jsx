@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import SwiftSlider from 'react-swift-slider'
+import produtos from "./data/produtos.json";
 
 const data =  [
   {'id':'1','src':'https://m.media-amazon.com/images/I/81kVxznTd0L._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
@@ -47,11 +48,10 @@ const ContVenda = styled.div`
     padding-bottom: 10px;
 `;
 class Produto1 extends React.Component {
+
     state = {
-        carrinho: [{id: 1, title: 'Lego Star Wars', price: 1000, src: 'https://m.media-amazon.com/images/I/81kVxznTd0L._AC_SX425_.jpg'}]}
-        criarCarrinho = (produto) => {
-            this.setState({carrinho: [...this.state.carrinho, produto]})
-        }
+        produto: produtos[0],
+    };
 
     render() {
         return (
@@ -60,13 +60,13 @@ class Produto1 extends React.Component {
             <SwiftSlider data={data} height={200} interval={10000} />
             </ContSlider>
                 <ContVenda>
-                    <h1>Lego Star Wars</h1>
+                    <h1>{this.state.produto.title}</h1>
                     <Preco>
                         <p>R$</p>
-                        <p>1000</p>
+                        {this.state.produto.price}
                         <p>,00</p>
                     </Preco>
-                    <button onClick={() => this.criarCarrinho({id: 1, title: 'Lego Star Wars', price: 1000, src: 'https://m.media-amazon.com/images/I/81kVxznTd0L._AC_SX425_.jpg'})}> Adicionar ao carrinho </button>
+                    <button> Adicionar ao carrinho </button>
                 </ContVenda> 
         </Container>
         );
