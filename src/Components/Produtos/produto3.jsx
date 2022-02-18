@@ -4,11 +4,11 @@ import SwiftSlider from 'react-swift-slider'
 import produtos from "./data/produtos.json";
 
 const data =  [
-  {'id':'1','src':'https://m.media-amazon.com/images/I/81kVxznTd0L._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
-  {'id':'2','src':'https://m.media-amazon.com/images/I/91fLOX8iupL._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
-  {'id':'3','src':'https://media.mfbproject.co.za/repos/2018-alfa-romeo-stelvio-quadrifoglio-specs-photos-speed-2.jpg'},
-  {'id':'4','src':'https://media.mfbproject.co.za/repos/alfa-romeo-giulia-quadrifoglio-2017-us-wallpapers-and-hd-images-13.jpg'},
-  {'id':'5','src':'https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png'}
+  {'id':'1','src':'https://images-americanas.b2w.io/produtos/3283876811/imagens/lego-10266-creator-nasa-apollo-11-conjunto-de-land-lunar/3283876811_1_xlarge.jpg','title':'Aterrisador Lunar','price':'R$ 1.000,00'},
+  {'id':'2','src':'https://images-americanas.b2w.io/produtos/3283876811/imagens/lego-10266-creator-nasa-apollo-11-conjunto-de-land-lunar/3283876811_2_xlarge.jpg','title':'Aterrisador Lunar','price':'R$ 1.000,00'},
+  {'id':'3','src':'https://images-americanas.b2w.io/produtos/3283876811/imagens/lego-10266-creator-nasa-apollo-11-conjunto-de-land-lunar/3283876811_3_xlarge.jpg'},
+  {'id':'4','src':'https://images-americanas.b2w.io/produtos/3283876811/imagens/lego-10266-creator-nasa-apollo-11-conjunto-de-land-lunar/3283876811_4_xlarge.jpg'},
+  {'id':'5','src':'https://images-americanas.b2w.io/produtos/3283876811/imagens/lego-10266-creator-nasa-apollo-11-conjunto-de-land-lunar/3283876811_5_xlarge.jpg'}
 ];
 const ContSlider = styled.div`
     width: 100%;
