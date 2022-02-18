@@ -4,11 +4,11 @@ import SwiftSlider from 'react-swift-slider'
 import produtos from "./data/produtos.json";
 
 const data =  [
-  {'id':'1','src':'https://m.media-amazon.com/images/I/81kVxznTd0L._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
-  {'id':'2','src':'https://m.media-amazon.com/images/I/91fLOX8iupL._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
-  {'id':'3','src':'https://media.mfbproject.co.za/repos/2018-alfa-romeo-stelvio-quadrifoglio-specs-photos-speed-2.jpg'},
-  {'id':'4','src':'https://media.mfbproject.co.za/repos/alfa-romeo-giulia-quadrifoglio-2017-us-wallpapers-and-hd-images-13.jpg'},
-  {'id':'5','src':'https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png'}
+  {'id':'1','src':'https://http2.mlstatic.com/D_NQ_NP_2X_964168-MLB48734726313_012022-F.webp','title':'Lego Millennium Falcon ','price':'R$ 1.000,00'},
+  {'id':'2','src':'https://http2.mlstatic.com/D_NQ_NP_2X_733824-MLB48734710461_012022-F.webp','title':'Lego Millennium Falcon ','price':'R$ 1.000,00'},
+  {'id':'3','src':'https://http2.mlstatic.com/D_NQ_NP_2X_802840-MLB48734746228_012022-F.webp'},
+  {'id':'4','src':'https://http2.mlstatic.com/D_NQ_NP_2X_860689-MLB48734757151_012022-F.webp'},
+  {'id':'5','src':'https://http2.mlstatic.com/D_NQ_NP_2X_706075-MLB48734759138_012022-F.webp'}
 ];
 const ContSlider = styled.div`
     width: 100%;

@@ -3,12 +3,13 @@ import styled from "styled-components";
 import SwiftSlider from 'react-swift-slider'
 import produtos from "./data/produtos.json";
 
+
 const data =  [
-  {'id':'1','src':'https://m.media-amazon.com/images/I/81kVxznTd0L._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
-  {'id':'2','src':'https://m.media-amazon.com/images/I/91fLOX8iupL._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
-  {'id':'3','src':'https://media.mfbproject.co.za/repos/2018-alfa-romeo-stelvio-quadrifoglio-specs-photos-speed-2.jpg'},
-  {'id':'4','src':'https://media.mfbproject.co.za/repos/alfa-romeo-giulia-quadrifoglio-2017-us-wallpapers-and-hd-images-13.jpg'},
-  {'id':'5','src':'https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png'}
+{'id':'1','src':'https://w1.ezcdn.com.br/lojasjcbrinquedos/fotos/zoom/20980fz1/lego-creator-aventura-de-onibus-espacial-lego.jpg','title':'Lego Onibus Espacial ','price':'R$ 1.000,00'},
+{'id':'2','src':'https://w3.ezcdn.com.br/lojasjcbrinquedos/fotos/zoom/20980fz2/lego-creator-aventura-de-onibus-espacial-lego.jpg','title':'Lego Onibus Espacial ','price':'R$ 1.000,00'},
+{'id':'3','src':'https://w1.ezcdn.com.br/lojasjcbrinquedos/fotos/zoom/20980fz1/lego-creator-aventura-de-onibus-espacial-lego.jpg'},
+{'id':'4','src':'https://w3.ezcdn.com.br/lojasjcbrinquedos/fotos/zoom/20980fz2/lego-creator-aventura-de-onibus-espacial-lego.jpg'},
+{'id':'5','src':'https://w1.ezcdn.com.br/lojasjcbrinquedos/fotos/zoom/20980fz1/lego-creator-aventura-de-onibus-espacial-lego.jpg'}
 ];
 const ContSlider = styled.div`
     width: 100%;

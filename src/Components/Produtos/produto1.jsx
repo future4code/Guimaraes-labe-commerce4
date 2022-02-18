@@ -4,11 +4,11 @@ import SwiftSlider from 'react-swift-slider'
 import produtos from "./data/produtos.json";
 
 const data =  [
-  {'id':'1','src':'https://m.media-amazon.com/images/I/81kVxznTd0L._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
-  {'id':'2','src':'https://m.media-amazon.com/images/I/91fLOX8iupL._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
-  {'id':'3','src':'https://media.mfbproject.co.za/repos/2018-alfa-romeo-stelvio-quadrifoglio-specs-photos-speed-2.jpg'},
-  {'id':'4','src':'https://media.mfbproject.co.za/repos/alfa-romeo-giulia-quadrifoglio-2017-us-wallpapers-and-hd-images-13.jpg'},
-  {'id':'5','src':'https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png'}
+  {'id':'1','src':'https://legobrasil.vteximg.com.br/arquivos/ids/173567-2000-1200/lego_75308_star_wars_r2_d2_01.jpg?v=637558332870070000','title':'Lego Star Wars','price':'R$ 1.000,00'},
+  {'id':'2','src':'https://legobrasil.vteximg.com.br/arquivos/ids/173568-2000-1200/lego_75308_star_wars_r2_d2_02.jpg?v=637558332946400000','title':'Lego Star Wars','price':'R$ 1.000,00'},
+  {'id':'3','src':'https://legobrasil.vteximg.com.br/arquivos/ids/173570-2000-1200/lego_75308_star_wars_r2_d2_04.jpg?v=637558333134470000'},
+  {'id':'4','src':'https://legobrasil.vteximg.com.br/arquivos/ids/173572-2000-1200/lego_75308_star_wars_r2_d2_06.jpg?v=637558333352370000'},
+  {'id':'5','src':'https://legobrasil.vteximg.com.br/arquivos/ids/173578-2000-1200/lego_75308_star_wars_r2_d2_12.jpg?v=637558334016170000'}
 ];
 const ContSlider = styled.div`
     width: 100%;

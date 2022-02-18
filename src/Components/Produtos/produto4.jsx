@@ -4,11 +4,11 @@ import SwiftSlider from 'react-swift-slider'
 import produtos from "./data/produtos.json";
 
 const data =  [
-  {'id':'1','src':'https://m.media-amazon.com/images/I/81kVxznTd0L._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
-  {'id':'2','src':'https://m.media-amazon.com/images/I/91fLOX8iupL._AC_SX425_.jpg','title':'Lego Star Wars','price':'R$ 1.000,00'},
-  {'id':'3','src':'https://media.mfbproject.co.za/repos/2018-alfa-romeo-stelvio-quadrifoglio-specs-photos-speed-2.jpg'},
-  {'id':'4','src':'https://media.mfbproject.co.za/repos/alfa-romeo-giulia-quadrifoglio-2017-us-wallpapers-and-hd-images-13.jpg'},
-  {'id':'5','src':'https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png'}
+  {'id':'1','src':'https://brincasa.vteximg.com.br/arquivos/ids/165450-1000-1000/331974.jpg?v=637487279052600000','title':'Carro Lunar','price':'R$ 1.000,00'},
+  {'id':'2','src':'https://brincasa.vteximg.com.br/arquivos/ids/165449-1000-1000/331974-12.jpg?v=637487279048400000','title':'Carro Lunar','price':'R$ 1.000,00'},
+  {'id':'3','src':'https://brincasa.vteximg.com.br/arquivos/ids/165451-1000-1000/331974-2.jpg?v=637487279057000000'},
+  {'id':'4','src':'https://brincasa.vteximg.com.br/arquivos/ids/165452-1000-1000/331974-3.jpg?v=637487279063230000'},
+  {'id':'5','src':'https://brincasa.vteximg.com.br/arquivos/ids/165453-1000-1000/331974-1.jpg?v=637487279067300000'}
 ];
 const ContSlider = styled.div`
     width: 100%;
