@@ -5,7 +5,7 @@ const Filtro = styled.div`
   background-color: #001020;
   display: flex;
   flex-flow: column wrap;
-  width: 173px;
+  /* width: 173px; */
   border: 1px solid black;
   flex-direction: column;
   height: 100%;

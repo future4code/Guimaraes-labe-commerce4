@@ -15,22 +15,22 @@ import SideBarCarrinho from "./SideBarCarrinho";
 `;
  */
 const Main = styled.div`
-  background-color: black;
+  /* background-color: black;
   display: grid;
-  grid-template-columns: 1fr 0fr 10fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas:
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr; */
+  /* grid-template-areas:
     "sidebar sidebar"
-    "content content";
-  height: 100%;
-  position: relative;
+    "content content"; */
+  /* height: 100%; */
+  /* position: relative; */
 `;
 
 function ContainerPrincipal() {
   return <Main>
     <ContainerCards/>
-    <SideBarCarrinho />
-    <SideBarFiltro />
+    {/* <SideBarCarrinho />
+    <SideBarFiltro /> */}
   </Main>;
 }
 export default ContainerPrincipal;

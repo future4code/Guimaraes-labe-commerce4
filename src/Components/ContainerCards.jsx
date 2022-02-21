@@ -8,13 +8,13 @@ import Produto5 from "./Produtos/produto5";
 import Produto6 from "./Produtos/produto6";
 
 const Container = styled.div`
-  background-color: green;
+  background-color: white;
   display: grid;
-  width: 100%;
+  /* width: 100%; */
   border: 1px solid black;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
 `;
 
 
