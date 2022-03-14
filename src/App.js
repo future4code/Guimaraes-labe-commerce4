@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ContainerPrincipal from "./Components/ContainerPrincipal";
+import ContainerCards from "./Components/ContainerCards";
+import SideBarCarrinho from "./Components/SideBarCarrinho";
+import SideBarFiltro from "./Components/SideBarFiltro";
+import styled from "styled-components";
 
-function App() {
+const MainApp = styled.div`
+background-color: none;
+display: flex;
+justify-content: center;
+
+`;
+// const OrdenarProdutos = styled.select`
+// background-color: #001020;
+// color: #ddeeff;
+// padding: 0.5vw;
+// font-size:1vw;
+// `
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainApp>
+      {/* <header>
+        <h4></h4>
+      </header> */}
+
+      <SideBarFiltro />
+      <ContainerPrincipal />
+      <SideBarCarrinho /> 
+    </MainApp>
   );
 }
 
-export default App;
+
